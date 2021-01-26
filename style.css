@@ -1,0 +1,228 @@
+html{
+	scroll-behavior: smooth;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a{ 
+	text-decoration: none;}
+li{list-style: none;}
+a:hover{text-decoration: none;}
+
+ 
+
+
+
+
+.extradiv h2{
+	font-size: 0.9rem;
+	margin: 20px 0 15px 0;
+	font-weight: bold;
+	line-height: 1.1;
+	word-spacing: 4px;
+}
+
+
+.header{
+	width: 100%;
+	height: 100vh;
+	background-image: url('image/house.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+
+.nav-item a{
+
+	color: black;
+	font-weight: bold;
+}
+
+.carousel-inner{
+	background-size: 100% 100%;
+}
+
+
+
+
+.header-section{
+	width: 100%;
+	position:relative;
+	color: black;
+	height: inherit;
+	text-align: center;
+}
+
+.center-div{
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);	
+}
+
+@font-face
+{
+	font-family: karate;
+	src:url('karate.ttf');
+}
+.fonts{
+	font-family: karate;
+}
+
+@font-face
+{
+	font-family: pt;
+	src:url('PottaOne-Regular.ttf');
+}
+.m{
+	font-family: pt;
+}
+
+@font-face
+{
+	font-family: att;
+	src:url('Athena.ttf');
+}
+.term{
+	font-family: att;
+}
+
+
+
+
+
+
+.header-buttons a{
+	border: 1px solid black;
+	border-radius: 100px;
+	margin: 0 5px;
+	padding:12px 35px;
+	outline: none;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+}
+
+.header-buttons a:hover{
+	color: #50d1c0;
+	background: #fff;
+	text-decoration: none;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+
+
+
+
+.header-extradiv{
+	width: 100%;
+	height: auto;
+	margin: 100px auto;
+}
+
+
+
+
+
+.extradiv{
+	background: #fff;
+	border: medium none;
+	padding: 50px!important;
+	border-radius: 3px;
+	transition: 0.3s;
+}
+
+.extradiv:hover{
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+	transform: translateY(-20px);
+}
+
+
+
+#myBtn{
+	
+	position: fixed;
+	bottom: 20px;
+	right: 40px;
+	z-index: 99;
+	border: none;
+	color: #fff;
+	background: #00abff;
+}
+#myBtn:hover{
+	background:grey;
+
+}
+
+input, textarea{
+    
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    width: 80%;
+    margin: 11px 0px;
+    padding: 7px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+    
+    font-weight: bold;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+.btn:hover{
+	background-color: white;
+}
+
+#info-box {
+    position: relative;
+    bottom: -2em;
+    right: -9em;
+}
+
+#info-box ul {
+    list-style: none;
+}
+#info-box a {
+    color: black;
+    text-decoration: none;
+    text-align: right;
+    padding: 0.5em 0;
+    transition: all 0.1s ease-out;
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+#info-box a:hover {
+    color:blue;
+}
+
+.fontt{
+	font-size: 40px;
+}
+.fontt:hover{
+	color: black;
+}
